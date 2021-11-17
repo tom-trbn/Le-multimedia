@@ -1,0 +1,51 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-color : rgb(176,224,230);
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  color : #FF00FF;
+  font-size : 80px;
+  text-align : center;
+}
+
+h3 {
+  font-size : 18px
+}
+
+ol {
+  color : black;
+}
+
+p {
+  color : black;
+}
+
+.blackpur{
+  color: black;
+}
+
+.cobaltplusclair{
+  rgb(0,71,171);
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
