@@ -25,7 +25,8 @@ h1 {
 }
 
 h3 {
-  font-size : 18px
+  color : rgb(105,105,105);
+  font-size : 18px;
 }
 
 ol {
@@ -42,6 +43,13 @@ p {
 
 .cobaltplusclair{
   rgb(0,71,171);
+}
+
+h3 {
+  
+}
+p1 {
+  font-size : 12px
 }
 /* images and videos max out at full width */
 img,
