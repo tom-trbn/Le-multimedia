@@ -33,9 +33,7 @@ ol {
   color : black;
 }
 
-p {
-  color : black;
-}
+
 
 .blackpur{
   color: black;
@@ -46,8 +44,13 @@ p {
 }
 
 h3 {
-  
+  color : cobaltplusclair;
 }
+  
+.blackplusclair {
+  rgb(94,57,108);
+}
+  
 p1 {
   font-size : 12px
 }
@@ -56,4 +59,8 @@ img,
 video {
   height: auto;
   max-width: 100%;
+}
+  
+a {
+  color : blackplusclair;
 }
